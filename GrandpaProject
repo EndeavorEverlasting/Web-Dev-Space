@@ -1,0 +1,19 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset  = "utf-8">
+    <meta name = "viewport" content="widtd="width=device-width, initial-scale=1">
+    
+    <title>Grandpa Scape</title>
+    <meta name = "description" content= "Simple Site Template">
+    <meta name = "author" content= "Rich Perez"> 
+    
+    <link rel= "stylesheet" href= "css.stylesGrandpa.css">
+  </head>
+
+<body>
+  <!-- Content -->
+  <script src="js/scriptsGrandpa.js"> </script> 
+</body>
+</html>
