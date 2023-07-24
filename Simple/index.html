@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--To-Dos: 
+    Get Button to Load PDF on another page
+    Hover name to the left of the button for pages
+        greater than 700px by xpx (viewports)
+    Hover name at the top like a nav bar for small pages
+-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    
+    <div class="nameAndBtn">
+        <div class="nameDiv">
+            <code>
+                <a href="./src/img/Resss.pdf" class="nameAnchor">
+                    Richard Perez
+                </a>
+            </code>
+        </div>
+    
+        <button class="ResumeBtn btn" target="_blank" onclick="window.open('./src/img/Resss.pdf')"> Open Resume <i class="fa fa-folder iconOnBtn"></i></button>
+
+    </div>
+</body>
+
+</html>
