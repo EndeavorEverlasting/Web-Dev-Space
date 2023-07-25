@@ -5,12 +5,17 @@
 /*
 TO-DOs:
 
-Center the mouse button on the page
-Name goes to linkedIn
-Make Right Border on Name
-Add viewport for Various Sizes
+Center the mouse button on the page.
 
-No Paralax -- Choose a simple color scheme
+Style the anchor like the button.
+Add functionality to the button such that the middle mouse curser will open in a new tab.
+
+
+Eventually, the name anchor will go to LinkedIn.
+Make the Right Border on the Name Serve as a visual distinction between the button and anchor.
+Add viewports for Various Sizes.
+
+No Parallax -- Choose a simple color scheme.
 */
 
 *{
