@@ -20,60 +20,72 @@ No Parallax -- Choose a simple color scheme.
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-
-.nameDiv{
-
-    background: rgb(56, 239, 245);
-    /*margin: 60px 60px;
-    padding: 20px;
-    width: 100px; 
-    height: 50px;*/
-    top: 50%;
-    left: 30%;
-
-    /* bring your own prefixes 
-    transform: translate(-50%, -50%);*/
-}
-
-code{
-    color: white;
-}
-
-/*
-button.ResumeBtn{
-    font-size: large;
-    border-radius: 2rem;
-    background-color: #1e90ff;
-    color: #f0f8ff;
-    border-style: none;
-    border: none;
-    padding: 2em;
-    border-color: #f0f8ff;
-    align-content: center;
-    cursor: grabbing;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    /* bring your own prefixes 
-    transform: translate(-50%, -50%);
-}
-*/
-
 .ResumeBtn:hover{
     background-color: #7fffd4;
     color: #5f9ea0;
 }
 
-.iconOnBtn{
-    display: none;
-}
-
 .nameAndBtn{
-    margin: auto;
-    width: 200px;
-    height: 200px;
+    display: flex;
+    flex-direction: row;
+    margin: 50px auto 50px auto;
+    justify-content: center;
 }
 
-a{
+
+a:hover{
     color: rgb(28, 164, 202);    
 }
+
+.nameAnchor{
+    color: fff;
+    padding: 6vh;
+    width: 25vh;
+    background-color: #000;
+    text-decoration: none;
+    border-radius: 15%;
+    margin: 20px;
+    text-align: center;
+}
+
+.ResumeBtn{
+
+    padding: 6vh;
+    width: 35vh;
+    min-width: 200px;
+    border-radius: 15%;
+    margin: 20px;
+    
+}
+
+.anchorDiv{
+    margin-top: 65px;
+   /* line-height: 50px;*/
+}
+
+@media screen and (max-width: 520px) {
+        p {
+          color: red;
+        }
+
+        .nameAndBtn{
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .nameAnchor{
+            display: inline-block;
+            margin-bottom: 25px;
+            width: fit-content;
+            margin-left: 10vh;
+            margin-right: 10vh;
+        }
+
+        .ResumeBtn{
+            display: inline-block;
+            margin: auto 10vh auto 10vh;
+            width: fit-content;
+        }
+    }
